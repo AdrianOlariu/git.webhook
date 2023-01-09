@@ -1,0 +1,11 @@
+{
+  "name": "git.webhook",
+  "version": "1.0.0",
+  "description": "A web hook for automatically pulling the code from git to the server, whenever a push is being made to git",
+  "main": "webhook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Olariu",
+  "license": "ISC"
+}

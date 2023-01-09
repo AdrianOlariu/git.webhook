@@ -1,0 +1,9 @@
+[Unit]
+Description=A simple service as an example
+After=network-up.target
+
+[Service]
+ExecStart=/usr/bin/node /home/pi/WebApps/gitwebhook.microservice/webhook.js
+
+[Install]
+WantedBy=multi-user.target
